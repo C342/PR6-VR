@@ -465,6 +465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 437345864}
+  canvas: {fileID: 408568876}
 --- !u!1 &756192406
 GameObject:
   m_ObjectHideFlags: 0
