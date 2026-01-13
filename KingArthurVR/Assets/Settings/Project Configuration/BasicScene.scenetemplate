@@ -64,6 +64,10 @@ MonoBehaviour:
     locomotion.
   preview: {fileID: -7201468737772367373}
   dependencies:
+  - dependency: {fileID: 2800000, guid: f5694ff0dba52c14d863f4548a2258d6, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 6d4d9ed9fab695947907b1d6383e0bfb, type: 2}
+    instantiationMode: 0
   - dependency: {fileID: 2100000, guid: 99685157b02e4d446bbecb015645e5e8, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 11400000, guid: 0f906c94e2aa0c3488832acc1db04295, type: 2}
@@ -77,6 +81,8 @@ MonoBehaviour:
   - dependency: {fileID: 2800000, guid: 675b7eb08655ed44d87fc86d2d5cb154, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 7702310499995986061, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 575beda6d4fa9c044a6314c5241ee04a, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 3b39cd44ada2c7e4582ffc0d367906f6, type: 3}
     instantiationMode: 0
@@ -110,7 +116,7 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 2100000, guid: 76618f7490c40334fa7b685859587d2e, type: 2}
     instantiationMode: 0
-  - dependency: {fileID: 2100000, guid: 9fe0a856a63e8634ebc7077bc570ea68, type: 2}
+  - dependency: {fileID: 2100000, guid: 60cb141f01af79c44949ce953543741d, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 9100000, guid: db6239f7ccb29ca4aac63126c6a35e7d, type: 2}
     instantiationMode: 0
@@ -122,14 +128,14 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     instantiationMode: 0
-  - dependency: {fileID: 2800000, guid: 37920ac3813690349a856bbe19a86e2b, type: 3}
-    instantiationMode: 0
   - dependency: {fileID: 2800000, guid: a8bbea5efbf70dc45a0dd6325430062f, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 8748868027195207512, guid: 893219773891c784ab469a39151879b4, type: 3}
     instantiationMode: 0
   - dependency: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 5a809b88d19e6174aba7adf1dea71b6d, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 85e675893a909864d9c237e20202651b, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 919132149155446097, guid: 147ae308eec018b40a7b312ae58f44c7, type: 3}
@@ -140,13 +146,19 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 44ae09ed76086b14e82d37feb30c7650, type: 3}
     instantiationMode: 0
-  - dependency: {fileID: 5212361887338514247, guid: ae1968658b9687b47976fe86c062168f, type: 3}
+  - dependency: {fileID: 6588254159981384850, guid: e99e8df10b1f9bc409c961d1c2b8564e, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2b48d19249f624b4d8e48b1a9982e738, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 11400000, guid: fc690d1505c48cb4696838b71abd2ca0, type: 2}
     instantiationMode: 1
   - dependency: {fileID: 2800000, guid: 44cced520ecfd9f4292979a4fe8268c4, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 03d88a9245522804b93d275a99ae6f6a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: bcf5cca2187516349a47b6e8bc6a132e, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 5212361887338514247, guid: ae1968658b9687b47976fe86c062168f, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2761784063978902507, guid: c1800acf6366418a9b5f610249000331, type: 3}
     instantiationMode: 0
@@ -159,6 +171,8 @@ MonoBehaviour:
   - dependency: {fileID: 2100000, guid: 82b660520bdecce4daf45d270ec93fe4, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: cdebec39dbf81a14688e1de8d12897b4, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 825e2238e713bf54a88f7aab78d851d0, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 7b8bfaee8f8631c4789ac62373cbc2d4, type: 3}
     instantiationMode: 1
