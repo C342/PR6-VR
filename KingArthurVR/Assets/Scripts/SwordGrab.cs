@@ -5,7 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(XRGrabInteractable))]
 [RequireComponent(typeof(ConfigurableJoint))]
-public class SwordInStone : MonoBehaviour
+public class SwordGrab : MonoBehaviour
 {
     private XRGrabInteractable grab;
     private ConfigurableJoint joint;
