@@ -17777,6 +17777,26 @@ PrefabInstance:
       propertyPath: m_LinearLimit.limit
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1378979299150728984, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_RotationDriveMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3381031620418976599, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_Size.y
+      value: 0.27250493
+      objectReference: {fileID: 0}
+    - target: {fileID: 3381031620418976599, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_Center.x
+      value: 0.00021643192
+      objectReference: {fileID: 0}
+    - target: {fileID: 3381031620418976599, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_Center.y
+      value: 0.01489383
+      objectReference: {fileID: 0}
+    - target: {fileID: 3381031620418976599, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_Center.z
+      value: -0.000000011175871
+      objectReference: {fileID: 0}
     - target: {fileID: 4818472777831986682, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.43239
@@ -17816,6 +17836,22 @@ PrefabInstance:
     - target: {fileID: 4818472777831986682, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497252090657362721, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_Size.y
+      value: 0.27221859
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497252090657362721, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_Center.x
+      value: 0.00021643192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497252090657362721, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_Center.y
+      value: 0.0147506595
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497252090657362721, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
+      propertyPath: m_Center.z
+      value: -0.000000011175871
       objectReference: {fileID: 0}
     - target: {fileID: 6974078189340516557, guid: 9891eec797d45634dbf057ab61a81d15, type: 3}
       propertyPath: m_AttachTransform
