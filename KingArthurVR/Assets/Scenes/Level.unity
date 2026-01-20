@@ -599,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e18ded4b611aa8f4a9f0f261d2f29537, type: 2}
     - target: {fileID: 2842448779463505643, guid: 57c445ba168390e47bdd2fb575979993, type: 3}
       propertyPath: m_Name
-      value: Storyboard
+      value: Storyboard2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1832,6 +1832,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8241971607397890865, guid: a6768cf796d837d41990c78d8cfd5045, type: 3}
   m_PrefabInstance: {fileID: 183771362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189898794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2842448779463505643, guid: 57c445ba168390e47bdd2fb575979993, type: 3}
+  m_PrefabInstance: {fileID: 76412942}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &209096615
 PrefabInstance:
@@ -3865,7 +3870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7702310499995986061, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       propertyPath: m_Name
-      value: Icon 1
+      value: ButtonText
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7920240896707610463, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
@@ -3884,6 +3889,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7702310499995986061, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 373191881}
+    - targetCorrespondingSourceObject: {fileID: 7702310499995986061, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 373191883}
   m_SourcePrefab: {fileID: 100100000, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
 --- !u!224 &373191875 stripped
 RectTransform:
@@ -3940,11 +3948,11 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
+    m_FadeDuration: 1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -3961,13 +3969,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 7980210b9a1a13849bfe45a134fd65c6, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 373191883}
+        m_TargetAssemblyTypeName: EnableBoard, Assembly-CSharp
+        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4078,6 +4086,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BoolValueReader: {fileID: 0}
   m_FloatValueReader: {fileID: 0}
+--- !u!114 &373191883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373191876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7980210b9a1a13849bfe45a134fd65c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Storyboard1: {fileID: 1745549479}
+  Storyboard2: {fileID: 189898794}
+  Storyboard3: {fileID: 513262504}
+  ButtonText: {fileID: 373191879}
+  TitleText: {fileID: 753994321}
 --- !u!1001 &376657509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6091,6 +6116,11 @@ MonoBehaviour:
   m_Mediator: {fileID: 802910829}
   m_TransformationPriority: 0
   m_DelayTime: 3
+--- !u!1 &513262504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2842448779463505643, guid: 57c445ba168390e47bdd2fb575979993, type: 3}
+  m_PrefabInstance: {fileID: 1333865294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &516283256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9161,7 +9191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_Name
-      value: TextIcon (1)
+      value: TitleText
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9203,6 +9233,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &753994321 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+  m_PrefabInstance: {fileID: 753994317}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753994319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &756192406
 GameObject:
   m_ObjectHideFlags: 0
@@ -11271,8 +11312,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1062590197341375781}
-  - {fileID: 1333865295}
   - {fileID: 76412943}
+  - {fileID: 1333865295}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &898762156
@@ -16662,7 +16703,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e18ded4b611aa8f4a9f0f261d2f29537, type: 2}
     - target: {fileID: 2842448779463505643, guid: 57c445ba168390e47bdd2fb575979993, type: 3}
       propertyPath: m_Name
-      value: Storyboard
+      value: Storyboard3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20318,6 +20359,11 @@ MonoBehaviour:
   m_Mediator: {fileID: 802910829}
   m_TransformationPriority: 0
   m_DelayTime: 3
+--- !u!1 &1745549479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4278228985346173988, guid: 4ec02bcfa1972c1449ac40ff1b732f3d, type: 3}
+  m_PrefabInstance: {fileID: 1818840611419196819}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1803846507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23994,7 +24040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4278228985346173988, guid: 4ec02bcfa1972c1449ac40ff1b732f3d, type: 3}
       propertyPath: m_Name
-      value: Storyboard
+      value: Storyboard1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

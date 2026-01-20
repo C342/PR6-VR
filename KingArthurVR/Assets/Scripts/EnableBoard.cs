@@ -1,17 +1,23 @@
 using System.Runtime.CompilerServices;
+using TMPro;
 using UnityEngine;
 
 public class EnableBoard : MonoBehaviour
 {
-    public Transform Storyboard;
+    public GameObject Storyboard1;
+    public GameObject Storyboard2;
+    public GameObject Storyboard3;
 
-    void Start()
+    public TextMeshProUGUI ButtonText;
+    public TextMeshProUGUI TitleText;
+
+    public void OnButtonClick()
     {
+        Storyboard1.SetActive(true);
+        Storyboard2.SetActive(true);
+        Storyboard3.SetActive(true);
 
-    }
-
-    void Update()
-    {
-        GameObject.Find("Storyboard").SetActive(false);
+        ButtonText.gameObject.SetActive(false);
+        TitleText.gameObject.SetActive(false);
     }
 }
