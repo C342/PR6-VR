@@ -6444,11 +6444,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7980210b9a1a13849bfe45a134fd65c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Storyboard1: {fileID: 0}
+  Storyboard1: {fileID: 790241594}
   Storyboard2: {fileID: 0}
   Storyboard3: {fileID: 0}
   ButtonText: {fileID: 373191879}
-  TitleText: {fileID: 0}
+  TitleText: {fileID: 1028113059}
 --- !u!1001 &376657509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18337,7 +18337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_text
-      value: 'Many know '
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_fontStyle
@@ -21483,6 +21483,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1028113059 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+  m_PrefabInstance: {fileID: 1028113055}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028113057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1038411228
 PrefabInstance:
   m_ObjectHideFlags: 0

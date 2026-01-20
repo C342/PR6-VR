@@ -13,9 +13,9 @@ public class EnableBoard : MonoBehaviour
 
     public void OnButtonClick()
     {
-        Storyboard1.SetActive(true);
-        Storyboard2.SetActive(true);
-        Storyboard3.SetActive(true);
+        Storyboard1.gameObject.SetActive(true);
+        Storyboard2.gameObject.SetActive(true);
+        Storyboard3.gameObject.SetActive(true);
 
         ButtonText.gameObject.SetActive(false);
         TitleText.gameObject.SetActive(false);
