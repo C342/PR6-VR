@@ -44,4 +44,9 @@ public class SwordGrab : MonoBehaviour
         joint.yMotion = ConfigurableJointMotion.Locked;
         joint.zMotion = ConfigurableJointMotion.Locked;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
 }
