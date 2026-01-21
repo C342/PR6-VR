@@ -6234,9 +6234,6 @@ PrefabInstance:
       addedObject: {fileID: 373191877}
     - targetCorrespondingSourceObject: {fileID: 7702310499995986061, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 373191881}
-    - targetCorrespondingSourceObject: {fileID: 7702310499995986061, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 373191883}
   m_SourcePrefab: {fileID: 100100000, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
 --- !u!224 &373191875 stripped
@@ -6418,20 +6415,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &373191881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373191876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4539b4bb3e502834f8eb0c031f7f7c28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BoolValueReader: {fileID: 0}
-  m_FloatValueReader: {fileID: 0}
 --- !u!114 &373191883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6445,8 +6428,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Storyboard1: {fileID: 790241594}
-  Storyboard2: {fileID: 0}
-  Storyboard3: {fileID: 0}
+  Storyboard2: {fileID: 1120150850}
+  Storyboard3: {fileID: 1346845498}
   ButtonText: {fileID: 373191879}
   TitleText: {fileID: 1028113059}
 --- !u!1001 &376657509
@@ -18337,7 +18320,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_text
-      value: 
+      value: As Arthur grew up from a boy, he came to discover a Sword buried deep
+        within a stone that no other person could pull, no matter how hard they tried.
+        Whoever pulled it from it's stone was said to be the rightful King of England,
+        one day Arthur tried pulling it, and succeeded flawlessly, earning his claim
+        over England as it's ruler during the dark ages of Medieval Europe.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontSize
+      value: 20.1
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_fontStyle
@@ -18348,8 +18339,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 16777215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_Name
@@ -21422,10 +21425,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_text
-      value: 'Sword in the Stone Experience
+      value: 'Sword in the Stone
 
 
-        VR'
+        VR Experience'
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_fontStyle
@@ -23517,6 +23520,194 @@ Transform:
   m_Children: []
   m_Father: {fileID: 806560802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1120150848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1376475579}
+    m_Modifications:
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 692.4796
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 689.42914
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 321
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_text
+      value: 'This experience will take you through a series of environments where
+        Arthur once walked, depicting Arthur''s life & experiences across England,
+        where he grew up as a child and how he met Merlin;
+
+
+        Throughout each
+        level, these boards will show up for you to read through for more information,
+        along with a continue button to speed up your journey should you wish to
+        do so.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontSize
+      value: 18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 16777215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_Name
+      value: Storyboard2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1120150851}
+  m_SourcePrefab: {fileID: 100100000, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+--- !u!224 &1120150849 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+  m_PrefabInstance: {fileID: 1120150848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1120150850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+  m_PrefabInstance: {fileID: 1120150848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1120150851
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120150850}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 49884bc05621ae54fa4170a2dff5d1d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1125139169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27641,6 +27832,189 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7784582707701628662, guid: 57513cb8a5d003141b155289c081206f, type: 3}
   m_PrefabInstance: {fileID: 1345460233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1346845496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1376475579}
+    m_Modifications:
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 692.4797
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -689.4292
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 321
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_text
+      value: As you may know, the story of the Sword in the Stone follows the legendary
+        tale of when Arthur was a simple child, all the way up to becoming a fully-fledged
+        ruler of England, being mentored by Merlin, one of the greatest wizards known
+        to England at the time.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontSize
+      value: 24.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 16777215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_Name
+      value: Storyboard3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1346845499}
+  m_SourcePrefab: {fileID: 100100000, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+--- !u!224 &1346845497 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 822953874400870998, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+  m_PrefabInstance: {fileID: 1346845496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1346845498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+  m_PrefabInstance: {fileID: 1346845496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1346845499
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346845498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 49884bc05621ae54fa4170a2dff5d1d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1359909389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28638,6 +29012,8 @@ RectTransform:
   - {fileID: 1028113056}
   - {fileID: 373191875}
   - {fileID: 790241595}
+  - {fileID: 1346845497}
+  - {fileID: 1120150849}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
