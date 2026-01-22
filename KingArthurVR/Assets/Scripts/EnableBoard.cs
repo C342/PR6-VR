@@ -12,6 +12,7 @@ public class EnableBoard : MonoBehaviour
     public TextMeshProUGUI Disable1;
     public TextMeshProUGUI Disable2;
     public TextMeshProUGUI Disable3;
+    public TextMeshProUGUI Disable4;
 
     public void OnButtonClick()
     {
@@ -23,5 +24,6 @@ public class EnableBoard : MonoBehaviour
         Disable1.gameObject.SetActive(false);
         Disable2.gameObject.SetActive(false);
         Disable3.gameObject.SetActive(false);
+        Disable4.gameObject.SetActive(false);
     }
 }
