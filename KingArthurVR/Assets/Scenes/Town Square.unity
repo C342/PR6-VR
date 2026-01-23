@@ -39202,7 +39202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_margin.x
-      value: -266.7106
+      value: -309.1304
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_margin.y
@@ -39210,7 +39210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_margin.z
-      value: -267.1309
+      value: -296.2226
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_fontAsset
