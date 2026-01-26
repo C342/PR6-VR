@@ -4668,7 +4668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1040891141135660111, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 34.2
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1040891141135660111, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4706,10 +4706,10 @@ PrefabInstance:
       addedObject: {fileID: 282293589}
     - targetCorrespondingSourceObject: {fileID: 7702310499995986061, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 282293596}
+      addedObject: {fileID: 282293595}
     - targetCorrespondingSourceObject: {fileID: 7702310499995986061, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 282293595}
+      addedObject: {fileID: 282293598}
   m_SourcePrefab: {fileID: 100100000, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
 --- !u!224 &282293587 stripped
 RectTransform:
@@ -4787,7 +4787,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 282293596}
+      - m_Target: {fileID: 282293598}
         m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
         m_MethodName: set_name
         m_Mode: 5
@@ -4796,7 +4796,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Forest
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &282293591
@@ -4822,7 +4822,7 @@ MonoBehaviour:
   m_text: CONTINUE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cd14b17d1afb08448ae5c0585b31b27, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -518966149573780272, guid: 7cd14b17d1afb08448ae5c0585b31b27, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4846,7 +4846,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.7
+  m_fontSize: 34.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4887,7 +4887,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &282293595
@@ -5215,7 +5215,7 @@ MonoBehaviour:
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: 0
---- !u!114 &282293596
+--- !u!114 &282293598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10193,7 +10193,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408568873}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.31741267, y: 0.31741267, z: 0.31741267}
   m_ConstrainProportionsScale: 0
@@ -10204,7 +10204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 581.5, y: 281}
+  m_AnchoredPosition: {x: -123325.516, y: -59220.438}
   m_SizeDelta: {x: 3663.9998, y: 1770.5657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &408568878
@@ -21999,7 +21999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_fontSize
-      value: 20.1
+      value: 20.15
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_fontAsset
@@ -22013,6 +22013,10 @@ PrefabInstance:
       propertyPath: m_fontColor.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -518966149573780272, guid: 7cd14b17d1afb08448ae5c0585b31b27, type: 2}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_enableAutoSizing
       value: 1
@@ -22031,7 +22035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6613761957558113512, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6915295536742828757, guid: 239ebeac83677c64bbcf4d0afb77641d, type: 3}
       propertyPath: m_Name
@@ -37703,6 +37707,10 @@ PrefabInstance:
       value: House (21)
       objectReference: {fileID: 0}
     - target: {fileID: 7991655147310672156, guid: 8dd88bcacb49e2846804ca2b446cc546, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991655147310672156, guid: 8dd88bcacb49e2846804ca2b446cc546, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ec729a07679b86b479b072623ae22d1e, type: 2}
@@ -46749,6 +46757,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1469662991}
     m_Modifications:
+    - target: {fileID: 1295258596676413853, guid: a1ea8d2b47790d647b8a9dfefe718996, type: 3}
+      propertyPath: maxPullUp
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 2872238326795270231, guid: a1ea8d2b47790d647b8a9dfefe718996, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.43239

@@ -4,49 +4,56 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(XRGrabInteractable))]
-[RequireComponent(typeof(ConfigurableJoint))]
 public class SwordGrab : MonoBehaviour
 {
     private XRGrabInteractable grab;
-    private ConfigurableJoint joint;
+
+    private Vector3 lockedWorldPos;
+    public float maxPullUp = 0.15f;
+
+    private bool isGrabbed;
 
     void Awake()
     {
         grab = GetComponent<XRGrabInteractable>();
-        joint = GetComponent<ConfigurableJoint>();
 
         grab.selectEntered.AddListener(OnGrab);
         grab.selectExited.AddListener(OnRelease);
 
-        LockJoint();
+        lockedWorldPos = transform.position;
+    }
+
+    void LateUpdate()
+    {
+        if (!isGrabbed)
+            return;
+
+        Vector3 pos = transform.position;
+
+        pos.x = lockedWorldPos.x;
+        pos.z = lockedWorldPos.z;
+
+        pos.y = Mathf.Clamp(
+            pos.y,
+            lockedWorldPos.y,
+            lockedWorldPos.y + maxPullUp
+        );
+
+        transform.position = pos;
     }
 
     private void OnGrab(SelectEnterEventArgs args)
     {
-        UnlockJoint();
+        isGrabbed = true;
+        lockedWorldPos = transform.position;
+
+        grab.trackRotation = false;
     }
 
     private void OnRelease(SelectExitEventArgs args)
     {
-        LockJoint();
-    }
+        isGrabbed = false;
 
-    private void UnlockJoint()
-    {
-        joint.xMotion = ConfigurableJointMotion.Locked;
-        joint.yMotion = ConfigurableJointMotion.Limited;
-        joint.zMotion = ConfigurableJointMotion.Locked;
-    }
-
-    private void LockJoint()
-    {
-        joint.xMotion = ConfigurableJointMotion.Locked;
-        joint.yMotion = ConfigurableJointMotion.Locked;
-        joint.zMotion = ConfigurableJointMotion.Locked;
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        
+        transform.position = lockedWorldPos;
     }
 }

@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneLoader : MonoBehaviour
 {
-    private void LoadLevel(string sceneName)
+    void ContinueToForest()
     {
-        SceneManager.LoadScene(sceneName);
+       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
