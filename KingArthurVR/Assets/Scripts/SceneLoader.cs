@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class SceneLoader : MonoBehaviour
 {
-    void ContinueToForest()
+    public void Forest()
     {
        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
