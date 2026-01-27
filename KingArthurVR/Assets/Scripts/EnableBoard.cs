@@ -8,10 +8,13 @@ public class EnableBoard : MonoBehaviour
     public GameObject Enable2;
     public GameObject Enable3;
     public GameObject Enable4;
+    public GameObject Enable5;
 
     public TextMeshProUGUI Disable1;
     public TextMeshProUGUI Disable2;
     public TextMeshProUGUI Disable3;
+    public TextMeshProUGUI Disable4;
+    public TextMeshProUGUI Disable5;
 
     public void OnButtonClick()
     {
@@ -19,9 +22,12 @@ public class EnableBoard : MonoBehaviour
         Enable2.gameObject.SetActive(true);
         Enable3.gameObject.SetActive(true);
         Enable4.gameObject.SetActive(true);
+        Enable5.gameObject.SetActive(true);
 
         Disable1.gameObject.SetActive(false);
         Disable2.gameObject.SetActive(false);
         Disable3.gameObject.SetActive(false);
+        Disable4.gameObject.SetActive(false);
+        Disable5.gameObject.SetActive(false);
     }
 }
