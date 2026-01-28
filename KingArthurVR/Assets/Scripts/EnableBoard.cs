@@ -7,14 +7,16 @@ public class EnableBoard : MonoBehaviour
     public GameObject Enable1;
     public GameObject Enable2;
     public GameObject Enable3;
-    public GameObject Enable4;
+    public GameObject Enable4;                              
     public GameObject Enable5;
 
-    public TextMeshProUGUI Disable1;
-    public TextMeshProUGUI Disable2;
-    public TextMeshProUGUI Disable3;
-    public TextMeshProUGUI Disable4;
-    public TextMeshProUGUI Disable5;
+    public GameObject Disable1;
+    public GameObject Disable2;
+    public GameObject Disable3;
+    public GameObject Disable4;
+    public GameObject Disable5;
+
+    public GameObject Destroy1;
 
     public void OnButtonClick()
     {
