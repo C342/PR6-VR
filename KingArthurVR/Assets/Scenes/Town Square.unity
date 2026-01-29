@@ -4978,7 +4978,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 282293591}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 282293598}
+        m_TargetAssemblyTypeName: EnableBoard, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &282293591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32570,15 +32582,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1040891141135660111, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.495
       objectReference: {fileID: 0}
     - target: {fileID: 1040891141135660111, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.495
       objectReference: {fileID: 0}
     - target: {fileID: 1040891141135660111, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.495
       objectReference: {fileID: 0}
     - target: {fileID: 1040891141135660111, guid: dcd21fef4a489e0438883763b3c0c60c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33036,7 +33048,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 1
   m_SpriteState:
@@ -33087,7 +33099,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CONTINUE TO FOREST
+  m_text: CONTINUE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cd14b17d1afb08448ae5c0585b31b27, type: 2}
   m_sharedMaterial: {fileID: -518966149573780272, guid: 7cd14b17d1afb08448ae5c0585b31b27, type: 2}
