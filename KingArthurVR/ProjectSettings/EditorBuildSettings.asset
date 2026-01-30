@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: 08988b0f0efab5c4ca4b80a888524ea0
+  - enabled: 1
+    path: Assets/Scenes/Jousting Ring.unity
+    guid: f20d7d86be355ad47ad5002a0c0f7bc9
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
